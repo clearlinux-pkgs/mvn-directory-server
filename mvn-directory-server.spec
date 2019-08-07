@@ -4,7 +4,7 @@
 #
 Name     : mvn-directory-server
 Version  : 2.0.0.m21
-Release  : 3
+Release  : 4
 URL      : https://github.com/apache/directory-server/archive/2.0.0-M21.tar.gz
 Source0  : https://github.com/apache/directory-server/archive/2.0.0-M21.tar.gz
 Source1  : https://repo1.maven.org/maven2/org/apache/directory/jdbm/apacheds-jdbm-parent/2.0.0-M3/apacheds-jdbm-parent-2.0.0-M3.pom
