@@ -82,9 +82,6 @@ bc73f82bffa876b23d3a4817d279046398e39701/apacheds-protocol-shared-2.0.0-M21.jar
 2692b5e358a7d2f93bafdc495a7723a273dea27b/apacheds-interceptors-collective-2.0.0-M21.jar
 61e2bcee20b9ab4ad234dc1fffa1190adfac3fcf/apacheds-core-constants-2.0.0-M21.jar
 dc9298a7dfb1df460a8caa2be2ed44cc273e9970/apacheds-core-constants-2.0.0-M21.pom
-d26d8a464641b50b46f109b19f01b0cd1d841533/apacheds-jdbm1-2.0.0-M3.jar
-e551a24e416fdb2419e8a89526efd956bb1060aa/apacheds-jdbm1-2.0.0-M3.pom
-6bb03b6ca9c2a6fe1a73ad5dcd4b6ebd98d552d7/apacheds-jdbm-parent-2.0.0-M3.pom
 99cfff546f06bd6d759d856e02ae98a0d8684b83/apacheds-core-api-2.0.0-M15.jar
 2fbfadee1eba384567186d99c897ef8c31bf01ec/apacheds-core-api-2.0.0-M15.pom
 bf616b6b62cd5704f2377f7535648d1a77f6f1b5/apacheds-interceptor-kerberos-2.0.0-M15.jar
