@@ -4,7 +4,7 @@
 #
 Name     : mvn-directory-server
 Version  : 2.0.0.m21
-Release  : 10
+Release  : 11
 URL      : https://github.com/apache/directory-server/archive/2.0.0-M21.tar.gz
 Source0  : https://github.com/apache/directory-server/archive/2.0.0-M21.tar.gz
 Source1  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-annotations/2.0.0-M21/apacheds-core-annotations-2.0.0-M21.jar
