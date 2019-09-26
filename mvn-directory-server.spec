@@ -4,7 +4,7 @@
 #
 Name     : mvn-directory-server
 Version  : 2.0.0.m21
-Release  : 11
+Release  : 12
 URL      : https://github.com/apache/directory-server/archive/2.0.0-M21.tar.gz
 Source0  : https://github.com/apache/directory-server/archive/2.0.0-M21.tar.gz
 Source1  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-annotations/2.0.0-M21/apacheds-core-annotations-2.0.0-M21.jar
@@ -13,143 +13,165 @@ Source3  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-c
 Source4  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-api/2.0.0-M15/apacheds-core-api-2.0.0-M15.pom
 Source5  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-api/2.0.0-M21/apacheds-core-api-2.0.0-M21.jar
 Source6  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-api/2.0.0-M21/apacheds-core-api-2.0.0-M21.pom
-Source7  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-avl/2.0.0-M15/apacheds-core-avl-2.0.0-M15.jar
-Source8  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-avl/2.0.0-M15/apacheds-core-avl-2.0.0-M15.pom
-Source9  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-avl/2.0.0-M21/apacheds-core-avl-2.0.0-M21.jar
-Source10  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-avl/2.0.0-M21/apacheds-core-avl-2.0.0-M21.pom
-Source11  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-constants/2.0.0-M15/apacheds-core-constants-2.0.0-M15.jar
-Source12  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-constants/2.0.0-M15/apacheds-core-constants-2.0.0-M15.pom
-Source13  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-constants/2.0.0-M21/apacheds-core-constants-2.0.0-M21.jar
-Source14  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-constants/2.0.0-M21/apacheds-core-constants-2.0.0-M21.pom
-Source15  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-integ/2.0.0-M21/apacheds-core-integ-2.0.0-M21.jar
-Source16  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-integ/2.0.0-M21/apacheds-core-integ-2.0.0-M21.pom
-Source17  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-jndi/2.0.0-M21/apacheds-core-jndi-2.0.0-M21.jar
-Source18  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-jndi/2.0.0-M21/apacheds-core-jndi-2.0.0-M21.pom
-Source19  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-shared/2.0.0-M15/apacheds-core-shared-2.0.0-M15.jar
-Source20  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-shared/2.0.0-M15/apacheds-core-shared-2.0.0-M15.pom
-Source21  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-shared/2.0.0-M21/apacheds-core-shared-2.0.0-M21.jar
-Source22  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-shared/2.0.0-M21/apacheds-core-shared-2.0.0-M21.pom
-Source23  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core/2.0.0-M15/apacheds-core-2.0.0-M15.jar
-Source24  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core/2.0.0-M15/apacheds-core-2.0.0-M15.pom
-Source25  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core/2.0.0-M21/apacheds-core-2.0.0-M21.jar
-Source26  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core/2.0.0-M21/apacheds-core-2.0.0-M21.pom
-Source27  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar
-Source28  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.pom
-Source29  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M21/apacheds-i18n-2.0.0-M21.jar
-Source30  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M21/apacheds-i18n-2.0.0-M21.pom
-Source31  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M15/apacheds-interceptor-kerberos-2.0.0-M15.jar
-Source32  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M15/apacheds-interceptor-kerberos-2.0.0-M15.pom
-Source33  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21/apacheds-interceptor-kerberos-2.0.0-M21.jar
-Source34  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21/apacheds-interceptor-kerberos-2.0.0-M21.pom
-Source35  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15/apacheds-interceptors-admin-2.0.0-M15.jar
-Source36  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15/apacheds-interceptors-admin-2.0.0-M15.pom
-Source37  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M21/apacheds-interceptors-admin-2.0.0-M21.jar
-Source38  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M21/apacheds-interceptors-admin-2.0.0-M21.pom
-Source39  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M15/apacheds-interceptors-authn-2.0.0-M15.jar
-Source40  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M15/apacheds-interceptors-authn-2.0.0-M15.pom
-Source41  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M21/apacheds-interceptors-authn-2.0.0-M21.jar
-Source42  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M21/apacheds-interceptors-authn-2.0.0-M21.pom
-Source43  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M15/apacheds-interceptors-authz-2.0.0-M15.jar
-Source44  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M15/apacheds-interceptors-authz-2.0.0-M15.pom
-Source45  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M21/apacheds-interceptors-authz-2.0.0-M21.jar
-Source46  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M21/apacheds-interceptors-authz-2.0.0-M21.pom
-Source47  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M15/apacheds-interceptors-changelog-2.0.0-M15.jar
-Source48  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M15/apacheds-interceptors-changelog-2.0.0-M15.pom
-Source49  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M21/apacheds-interceptors-changelog-2.0.0-M21.jar
-Source50  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M21/apacheds-interceptors-changelog-2.0.0-M21.pom
-Source51  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M15/apacheds-interceptors-collective-2.0.0-M15.jar
-Source52  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M15/apacheds-interceptors-collective-2.0.0-M15.pom
-Source53  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M21/apacheds-interceptors-collective-2.0.0-M21.jar
-Source54  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M21/apacheds-interceptors-collective-2.0.0-M21.pom
-Source55  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M15/apacheds-interceptors-event-2.0.0-M15.jar
-Source56  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M15/apacheds-interceptors-event-2.0.0-M15.pom
-Source57  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M21/apacheds-interceptors-event-2.0.0-M21.jar
-Source58  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M21/apacheds-interceptors-event-2.0.0-M21.pom
-Source59  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M15/apacheds-interceptors-exception-2.0.0-M15.jar
-Source60  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M15/apacheds-interceptors-exception-2.0.0-M15.pom
-Source61  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M21/apacheds-interceptors-exception-2.0.0-M21.jar
-Source62  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M21/apacheds-interceptors-exception-2.0.0-M21.pom
-Source63  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-hash/2.0.0-M21/apacheds-interceptors-hash-2.0.0-M21.jar
-Source64  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-hash/2.0.0-M21/apacheds-interceptors-hash-2.0.0-M21.pom
-Source65  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M15/apacheds-interceptors-journal-2.0.0-M15.jar
-Source66  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M15/apacheds-interceptors-journal-2.0.0-M15.pom
-Source67  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M21/apacheds-interceptors-journal-2.0.0-M21.jar
-Source68  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M21/apacheds-interceptors-journal-2.0.0-M21.pom
-Source69  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M15/apacheds-interceptors-normalization-2.0.0-M15.jar
-Source70  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M15/apacheds-interceptors-normalization-2.0.0-M15.pom
-Source71  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M21/apacheds-interceptors-normalization-2.0.0-M21.jar
-Source72  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M21/apacheds-interceptors-normalization-2.0.0-M21.pom
-Source73  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-number/2.0.0-M21/apacheds-interceptors-number-2.0.0-M21.jar
-Source74  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-number/2.0.0-M21/apacheds-interceptors-number-2.0.0-M21.pom
-Source75  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M15/apacheds-interceptors-operational-2.0.0-M15.jar
-Source76  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M15/apacheds-interceptors-operational-2.0.0-M15.pom
-Source77  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M21/apacheds-interceptors-operational-2.0.0-M21.jar
-Source78  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M21/apacheds-interceptors-operational-2.0.0-M21.pom
-Source79  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M15/apacheds-interceptors-referral-2.0.0-M15.jar
-Source80  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M15/apacheds-interceptors-referral-2.0.0-M15.pom
-Source81  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M21/apacheds-interceptors-referral-2.0.0-M21.jar
-Source82  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M21/apacheds-interceptors-referral-2.0.0-M21.pom
-Source83  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M15/apacheds-interceptors-schema-2.0.0-M15.jar
-Source84  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M15/apacheds-interceptors-schema-2.0.0-M15.pom
-Source85  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M21/apacheds-interceptors-schema-2.0.0-M21.jar
-Source86  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M21/apacheds-interceptors-schema-2.0.0-M21.pom
-Source87  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M15/apacheds-interceptors-subtree-2.0.0-M15.jar
-Source88  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M15/apacheds-interceptors-subtree-2.0.0-M15.pom
-Source89  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M21/apacheds-interceptors-subtree-2.0.0-M21.jar
-Source90  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M21/apacheds-interceptors-subtree-2.0.0-M21.pom
-Source91  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M15/apacheds-interceptors-trigger-2.0.0-M15.jar
-Source92  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M15/apacheds-interceptors-trigger-2.0.0-M15.pom
-Source93  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M21/apacheds-interceptors-trigger-2.0.0-M21.jar
-Source94  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M21/apacheds-interceptors-trigger-2.0.0-M21.pom
-Source95  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors/2.0.0-M15/apacheds-interceptors-2.0.0-M15.pom
-Source96  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors/2.0.0-M21/apacheds-interceptors-2.0.0-M21.pom
-Source97  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15/apacheds-jdbm-partition-2.0.0-M15.jar
-Source98  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15/apacheds-jdbm-partition-2.0.0-M15.pom
-Source99  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21/apacheds-jdbm-partition-2.0.0-M21.jar
-Source100  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21/apacheds-jdbm-partition-2.0.0-M21.pom
-Source101  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar
-Source102  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.pom
-Source103  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M21/apacheds-kerberos-codec-2.0.0-M21.jar
-Source104  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M21/apacheds-kerberos-codec-2.0.0-M21.pom
-Source105  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M15/apacheds-ldif-partition-2.0.0-M15.jar
-Source106  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M15/apacheds-ldif-partition-2.0.0-M15.pom
-Source107  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21/apacheds-ldif-partition-2.0.0-M21.jar
-Source108  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21/apacheds-ldif-partition-2.0.0-M21.pom
-Source109  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15/apacheds-mavibot-partition-2.0.0-M15.jar
-Source110  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15/apacheds-mavibot-partition-2.0.0-M15.pom
-Source111  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21/apacheds-mavibot-partition-2.0.0-M21.jar
-Source112  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21/apacheds-mavibot-partition-2.0.0-M21.pom
-Source113  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-parent/2.0.0-M15/apacheds-parent-2.0.0-M15.pom
-Source114  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-parent/2.0.0-M21/apacheds-parent-2.0.0-M21.pom
-Source115  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15/apacheds-protocol-kerberos-2.0.0-M15.jar
-Source116  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15/apacheds-protocol-kerberos-2.0.0-M15.pom
-Source117  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21/apacheds-protocol-kerberos-2.0.0-M21.jar
-Source118  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21/apacheds-protocol-kerberos-2.0.0-M21.pom
-Source119  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15/apacheds-protocol-ldap-2.0.0-M15.jar
-Source120  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15/apacheds-protocol-ldap-2.0.0-M15.pom
-Source121  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21/apacheds-protocol-ldap-2.0.0-M21.jar
-Source122  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21/apacheds-protocol-ldap-2.0.0-M21.pom
-Source123  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15/apacheds-protocol-shared-2.0.0-M15.jar
-Source124  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15/apacheds-protocol-shared-2.0.0-M15.pom
-Source125  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21/apacheds-protocol-shared-2.0.0-M21.jar
-Source126  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21/apacheds-protocol-shared-2.0.0-M21.pom
-Source127  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21/apacheds-server-annotations-2.0.0-M21.jar
-Source128  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21/apacheds-server-annotations-2.0.0-M21.pom
-Source129  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-config/2.0.0-M21/apacheds-server-config-2.0.0-M21.jar
-Source130  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-config/2.0.0-M21/apacheds-server-config-2.0.0-M21.pom
-Source131  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-integ/2.0.0-M21/apacheds-server-integ-2.0.0-M21.jar
-Source132  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-integ/2.0.0-M21/apacheds-server-integ-2.0.0-M21.pom
-Source133  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-test-framework/2.0.0-M21/apacheds-test-framework-2.0.0-M21.jar
-Source134  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-test-framework/2.0.0-M21/apacheds-test-framework-2.0.0-M21.pom
-Source135  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M15/apacheds-xdbm-partition-2.0.0-M15.jar
-Source136  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M15/apacheds-xdbm-partition-2.0.0-M15.pom
-Source137  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M21/apacheds-xdbm-partition-2.0.0-M21.jar
-Source138  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M21/apacheds-xdbm-partition-2.0.0-M21.pom
+Source7  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-api/2.0.0-M24/apacheds-core-api-2.0.0-M24.jar
+Source8  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-api/2.0.0-M24/apacheds-core-api-2.0.0-M24.pom
+Source9  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-avl/2.0.0-M15/apacheds-core-avl-2.0.0-M15.jar
+Source10  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-avl/2.0.0-M15/apacheds-core-avl-2.0.0-M15.pom
+Source11  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-avl/2.0.0-M21/apacheds-core-avl-2.0.0-M21.jar
+Source12  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-avl/2.0.0-M21/apacheds-core-avl-2.0.0-M21.pom
+Source13  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-constants/2.0.0-M15/apacheds-core-constants-2.0.0-M15.jar
+Source14  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-constants/2.0.0-M15/apacheds-core-constants-2.0.0-M15.pom
+Source15  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-constants/2.0.0-M21/apacheds-core-constants-2.0.0-M21.jar
+Source16  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-constants/2.0.0-M21/apacheds-core-constants-2.0.0-M21.pom
+Source17  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-integ/2.0.0-M21/apacheds-core-integ-2.0.0-M21.jar
+Source18  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-integ/2.0.0-M21/apacheds-core-integ-2.0.0-M21.pom
+Source19  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-jndi/2.0.0-M21/apacheds-core-jndi-2.0.0-M21.jar
+Source20  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-jndi/2.0.0-M21/apacheds-core-jndi-2.0.0-M21.pom
+Source21  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-shared/2.0.0-M15/apacheds-core-shared-2.0.0-M15.jar
+Source22  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-shared/2.0.0-M15/apacheds-core-shared-2.0.0-M15.pom
+Source23  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-shared/2.0.0-M21/apacheds-core-shared-2.0.0-M21.jar
+Source24  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core-shared/2.0.0-M21/apacheds-core-shared-2.0.0-M21.pom
+Source25  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core/2.0.0-M15/apacheds-core-2.0.0-M15.jar
+Source26  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core/2.0.0-M15/apacheds-core-2.0.0-M15.pom
+Source27  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core/2.0.0-M21/apacheds-core-2.0.0-M21.jar
+Source28  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core/2.0.0-M21/apacheds-core-2.0.0-M21.pom
+Source29  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core/2.0.0-M24/apacheds-core-2.0.0-M24.jar
+Source30  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-core/2.0.0-M24/apacheds-core-2.0.0-M24.pom
+Source31  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar
+Source32  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.pom
+Source33  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M21/apacheds-i18n-2.0.0-M21.jar
+Source34  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M21/apacheds-i18n-2.0.0-M21.pom
+Source35  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M15/apacheds-interceptor-kerberos-2.0.0-M15.jar
+Source36  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M15/apacheds-interceptor-kerberos-2.0.0-M15.pom
+Source37  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21/apacheds-interceptor-kerberos-2.0.0-M21.jar
+Source38  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21/apacheds-interceptor-kerberos-2.0.0-M21.pom
+Source39  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M24/apacheds-interceptor-kerberos-2.0.0-M24.jar
+Source40  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M24/apacheds-interceptor-kerberos-2.0.0-M24.pom
+Source41  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15/apacheds-interceptors-admin-2.0.0-M15.jar
+Source42  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15/apacheds-interceptors-admin-2.0.0-M15.pom
+Source43  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M21/apacheds-interceptors-admin-2.0.0-M21.jar
+Source44  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M21/apacheds-interceptors-admin-2.0.0-M21.pom
+Source45  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M15/apacheds-interceptors-authn-2.0.0-M15.jar
+Source46  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M15/apacheds-interceptors-authn-2.0.0-M15.pom
+Source47  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M21/apacheds-interceptors-authn-2.0.0-M21.jar
+Source48  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M21/apacheds-interceptors-authn-2.0.0-M21.pom
+Source49  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M15/apacheds-interceptors-authz-2.0.0-M15.jar
+Source50  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M15/apacheds-interceptors-authz-2.0.0-M15.pom
+Source51  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M21/apacheds-interceptors-authz-2.0.0-M21.jar
+Source52  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M21/apacheds-interceptors-authz-2.0.0-M21.pom
+Source53  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M15/apacheds-interceptors-changelog-2.0.0-M15.jar
+Source54  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M15/apacheds-interceptors-changelog-2.0.0-M15.pom
+Source55  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M21/apacheds-interceptors-changelog-2.0.0-M21.jar
+Source56  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M21/apacheds-interceptors-changelog-2.0.0-M21.pom
+Source57  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M15/apacheds-interceptors-collective-2.0.0-M15.jar
+Source58  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M15/apacheds-interceptors-collective-2.0.0-M15.pom
+Source59  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M21/apacheds-interceptors-collective-2.0.0-M21.jar
+Source60  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M21/apacheds-interceptors-collective-2.0.0-M21.pom
+Source61  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M15/apacheds-interceptors-event-2.0.0-M15.jar
+Source62  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M15/apacheds-interceptors-event-2.0.0-M15.pom
+Source63  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M21/apacheds-interceptors-event-2.0.0-M21.jar
+Source64  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M21/apacheds-interceptors-event-2.0.0-M21.pom
+Source65  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M15/apacheds-interceptors-exception-2.0.0-M15.jar
+Source66  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M15/apacheds-interceptors-exception-2.0.0-M15.pom
+Source67  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M21/apacheds-interceptors-exception-2.0.0-M21.jar
+Source68  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M21/apacheds-interceptors-exception-2.0.0-M21.pom
+Source69  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-hash/2.0.0-M21/apacheds-interceptors-hash-2.0.0-M21.jar
+Source70  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-hash/2.0.0-M21/apacheds-interceptors-hash-2.0.0-M21.pom
+Source71  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M15/apacheds-interceptors-journal-2.0.0-M15.jar
+Source72  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M15/apacheds-interceptors-journal-2.0.0-M15.pom
+Source73  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M21/apacheds-interceptors-journal-2.0.0-M21.jar
+Source74  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M21/apacheds-interceptors-journal-2.0.0-M21.pom
+Source75  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M15/apacheds-interceptors-normalization-2.0.0-M15.jar
+Source76  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M15/apacheds-interceptors-normalization-2.0.0-M15.pom
+Source77  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M21/apacheds-interceptors-normalization-2.0.0-M21.jar
+Source78  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M21/apacheds-interceptors-normalization-2.0.0-M21.pom
+Source79  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-number/2.0.0-M21/apacheds-interceptors-number-2.0.0-M21.jar
+Source80  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-number/2.0.0-M21/apacheds-interceptors-number-2.0.0-M21.pom
+Source81  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M15/apacheds-interceptors-operational-2.0.0-M15.jar
+Source82  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M15/apacheds-interceptors-operational-2.0.0-M15.pom
+Source83  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M21/apacheds-interceptors-operational-2.0.0-M21.jar
+Source84  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M21/apacheds-interceptors-operational-2.0.0-M21.pom
+Source85  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M15/apacheds-interceptors-referral-2.0.0-M15.jar
+Source86  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M15/apacheds-interceptors-referral-2.0.0-M15.pom
+Source87  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M21/apacheds-interceptors-referral-2.0.0-M21.jar
+Source88  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M21/apacheds-interceptors-referral-2.0.0-M21.pom
+Source89  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M15/apacheds-interceptors-schema-2.0.0-M15.jar
+Source90  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M15/apacheds-interceptors-schema-2.0.0-M15.pom
+Source91  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M21/apacheds-interceptors-schema-2.0.0-M21.jar
+Source92  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M21/apacheds-interceptors-schema-2.0.0-M21.pom
+Source93  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M15/apacheds-interceptors-subtree-2.0.0-M15.jar
+Source94  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M15/apacheds-interceptors-subtree-2.0.0-M15.pom
+Source95  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M21/apacheds-interceptors-subtree-2.0.0-M21.jar
+Source96  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M21/apacheds-interceptors-subtree-2.0.0-M21.pom
+Source97  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M15/apacheds-interceptors-trigger-2.0.0-M15.jar
+Source98  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M15/apacheds-interceptors-trigger-2.0.0-M15.pom
+Source99  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M21/apacheds-interceptors-trigger-2.0.0-M21.jar
+Source100  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M21/apacheds-interceptors-trigger-2.0.0-M21.pom
+Source101  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors/2.0.0-M15/apacheds-interceptors-2.0.0-M15.pom
+Source102  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors/2.0.0-M21/apacheds-interceptors-2.0.0-M21.pom
+Source103  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-interceptors/2.0.0-M24/apacheds-interceptors-2.0.0-M24.pom
+Source104  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15/apacheds-jdbm-partition-2.0.0-M15.jar
+Source105  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15/apacheds-jdbm-partition-2.0.0-M15.pom
+Source106  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21/apacheds-jdbm-partition-2.0.0-M21.jar
+Source107  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21/apacheds-jdbm-partition-2.0.0-M21.pom
+Source108  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M24/apacheds-jdbm-partition-2.0.0-M24.jar
+Source109  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M24/apacheds-jdbm-partition-2.0.0-M24.pom
+Source110  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar
+Source111  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.pom
+Source112  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M21/apacheds-kerberos-codec-2.0.0-M21.jar
+Source113  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M21/apacheds-kerberos-codec-2.0.0-M21.pom
+Source114  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M15/apacheds-ldif-partition-2.0.0-M15.jar
+Source115  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M15/apacheds-ldif-partition-2.0.0-M15.pom
+Source116  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21/apacheds-ldif-partition-2.0.0-M21.jar
+Source117  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21/apacheds-ldif-partition-2.0.0-M21.pom
+Source118  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M24/apacheds-ldif-partition-2.0.0-M24.jar
+Source119  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M24/apacheds-ldif-partition-2.0.0-M24.pom
+Source120  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15/apacheds-mavibot-partition-2.0.0-M15.jar
+Source121  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15/apacheds-mavibot-partition-2.0.0-M15.pom
+Source122  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21/apacheds-mavibot-partition-2.0.0-M21.jar
+Source123  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21/apacheds-mavibot-partition-2.0.0-M21.pom
+Source124  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M24/apacheds-mavibot-partition-2.0.0-M24.jar
+Source125  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M24/apacheds-mavibot-partition-2.0.0-M24.pom
+Source126  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-parent/2.0.0-M15/apacheds-parent-2.0.0-M15.pom
+Source127  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-parent/2.0.0-M21/apacheds-parent-2.0.0-M21.pom
+Source128  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-parent/2.0.0-M24/apacheds-parent-2.0.0-M24.pom
+Source129  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15/apacheds-protocol-kerberos-2.0.0-M15.jar
+Source130  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15/apacheds-protocol-kerberos-2.0.0-M15.pom
+Source131  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21/apacheds-protocol-kerberos-2.0.0-M21.jar
+Source132  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21/apacheds-protocol-kerberos-2.0.0-M21.pom
+Source133  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M24/apacheds-protocol-kerberos-2.0.0-M24.jar
+Source134  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M24/apacheds-protocol-kerberos-2.0.0-M24.pom
+Source135  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15/apacheds-protocol-ldap-2.0.0-M15.jar
+Source136  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15/apacheds-protocol-ldap-2.0.0-M15.pom
+Source137  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21/apacheds-protocol-ldap-2.0.0-M21.jar
+Source138  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21/apacheds-protocol-ldap-2.0.0-M21.pom
+Source139  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M24/apacheds-protocol-ldap-2.0.0-M24.jar
+Source140  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M24/apacheds-protocol-ldap-2.0.0-M24.pom
+Source141  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15/apacheds-protocol-shared-2.0.0-M15.jar
+Source142  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15/apacheds-protocol-shared-2.0.0-M15.pom
+Source143  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21/apacheds-protocol-shared-2.0.0-M21.jar
+Source144  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21/apacheds-protocol-shared-2.0.0-M21.pom
+Source145  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M24/apacheds-protocol-shared-2.0.0-M24.jar
+Source146  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M24/apacheds-protocol-shared-2.0.0-M24.pom
+Source147  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21/apacheds-server-annotations-2.0.0-M21.jar
+Source148  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21/apacheds-server-annotations-2.0.0-M21.pom
+Source149  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-config/2.0.0-M21/apacheds-server-config-2.0.0-M21.jar
+Source150  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-config/2.0.0-M21/apacheds-server-config-2.0.0-M21.pom
+Source151  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-integ/2.0.0-M21/apacheds-server-integ-2.0.0-M21.jar
+Source152  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-server-integ/2.0.0-M21/apacheds-server-integ-2.0.0-M21.pom
+Source153  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-test-framework/2.0.0-M21/apacheds-test-framework-2.0.0-M21.jar
+Source154  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-test-framework/2.0.0-M21/apacheds-test-framework-2.0.0-M21.pom
+Source155  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M15/apacheds-xdbm-partition-2.0.0-M15.jar
+Source156  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M15/apacheds-xdbm-partition-2.0.0-M15.pom
+Source157  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M21/apacheds-xdbm-partition-2.0.0-M21.jar
+Source158  : https://repo1.maven.org/maven2/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M21/apacheds-xdbm-partition-2.0.0-M21.pom
 Summary  : ApacheDS
 Group    : Development/Tools
-License  : Apache-2.0
+License  : Apache-2.0 MIT OLDAP-2.8
 Requires: mvn-directory-server-data = %{version}-%{release}
 Requires: mvn-directory-server-license = %{version}-%{release}
+BuildRequires : apache-maven
+BuildRequires : buildreq-mvn
 
 %description
 ApacheDS ${version}
@@ -177,6 +199,7 @@ license components for the mvn-directory-server package.
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/mvn-directory-server
+cp LICENSE %{buildroot}/usr/share/package-licenses/mvn-directory-server/LICENSE
 cp NOTICE %{buildroot}/usr/share/package-licenses/mvn-directory-server/NOTICE
 cp installers-maven-plugin/src/main/resources/org/apache/directory/server/installers/LICENSE %{buildroot}/usr/share/package-licenses/mvn-directory-server/installers-maven-plugin_src_main_resources_org_apache_directory_server_installers_LICENSE
 cp installers-maven-plugin/src/main/resources/org/apache/directory/server/installers/NOTICE %{buildroot}/usr/share/package-licenses/mvn-directory-server/installers-maven-plugin_src_main_resources_org_apache_directory_server_installers_NOTICE
@@ -199,401 +222,461 @@ cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/se
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-api/2.0.0-M21
 cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-api/2.0.0-M21/apacheds-core-api-2.0.0-M21.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M15
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M15/apacheds-core-avl-2.0.0-M15.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-api/2.0.0-M24
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-api/2.0.0-M24/apacheds-core-api-2.0.0-M24.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-api/2.0.0-M24
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-api/2.0.0-M24/apacheds-core-api-2.0.0-M24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M15
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M15/apacheds-core-avl-2.0.0-M15.pom
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M15/apacheds-core-avl-2.0.0-M15.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M15
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M15/apacheds-core-avl-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M21
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M21/apacheds-core-avl-2.0.0-M21.jar
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M21/apacheds-core-avl-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M21
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M21/apacheds-core-avl-2.0.0-M21.pom
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M21/apacheds-core-avl-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M15
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M15/apacheds-core-constants-2.0.0-M15.jar
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M15/apacheds-core-constants-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M15
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M15/apacheds-core-constants-2.0.0-M15.pom
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M15/apacheds-core-constants-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M21
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M21/apacheds-core-constants-2.0.0-M21.jar
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M21/apacheds-core-constants-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M21
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M21/apacheds-core-constants-2.0.0-M21.pom
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-constants/2.0.0-M21/apacheds-core-constants-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-integ/2.0.0-M21
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-integ/2.0.0-M21/apacheds-core-integ-2.0.0-M21.jar
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-integ/2.0.0-M21/apacheds-core-integ-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-integ/2.0.0-M21
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-integ/2.0.0-M21/apacheds-core-integ-2.0.0-M21.pom
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-integ/2.0.0-M21/apacheds-core-integ-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-jndi/2.0.0-M21
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-jndi/2.0.0-M21/apacheds-core-jndi-2.0.0-M21.jar
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-jndi/2.0.0-M21/apacheds-core-jndi-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-jndi/2.0.0-M21
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-jndi/2.0.0-M21/apacheds-core-jndi-2.0.0-M21.pom
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-jndi/2.0.0-M21/apacheds-core-jndi-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M15
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M15/apacheds-core-shared-2.0.0-M15.jar
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M15/apacheds-core-shared-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M15
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M15/apacheds-core-shared-2.0.0-M15.pom
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M15/apacheds-core-shared-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M21
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M21/apacheds-core-shared-2.0.0-M21.jar
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M21/apacheds-core-shared-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M21
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M21/apacheds-core-shared-2.0.0-M21.pom
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-shared/2.0.0-M21/apacheds-core-shared-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M15
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M15/apacheds-core-2.0.0-M15.jar
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M15/apacheds-core-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M15
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M15/apacheds-core-2.0.0-M15.pom
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M15/apacheds-core-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M21
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M21/apacheds-core-2.0.0-M21.jar
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M21/apacheds-core-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M21
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M21/apacheds-core-2.0.0-M21.pom
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M21/apacheds-core-2.0.0-M21.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M24
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M24/apacheds-core-2.0.0-M24.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M24
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M24/apacheds-core-2.0.0-M24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.pom
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M21
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M21/apacheds-i18n-2.0.0-M21.jar
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M21/apacheds-i18n-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M21
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M21/apacheds-i18n-2.0.0-M21.pom
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M21/apacheds-i18n-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M15
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M15/apacheds-interceptor-kerberos-2.0.0-M15.jar
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M15/apacheds-interceptor-kerberos-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M15
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M15/apacheds-interceptor-kerberos-2.0.0-M15.pom
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M15/apacheds-interceptor-kerberos-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21/apacheds-interceptor-kerberos-2.0.0-M21.jar
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21/apacheds-interceptor-kerberos-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21/apacheds-interceptor-kerberos-2.0.0-M21.pom
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21/apacheds-interceptor-kerberos-2.0.0-M21.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M24
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M24/apacheds-interceptor-kerberos-2.0.0-M24.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M24
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M24/apacheds-interceptor-kerberos-2.0.0-M24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15
-cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15/apacheds-interceptors-admin-2.0.0-M15.jar
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15/apacheds-interceptors-admin-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15
-cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15/apacheds-interceptors-admin-2.0.0-M15.pom
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15/apacheds-interceptors-admin-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M21
-cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M21/apacheds-interceptors-admin-2.0.0-M21.jar
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M21/apacheds-interceptors-admin-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M21
-cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M21/apacheds-interceptors-admin-2.0.0-M21.pom
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M21/apacheds-interceptors-admin-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M15
-cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M15/apacheds-interceptors-authn-2.0.0-M15.jar
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M15/apacheds-interceptors-authn-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M15
-cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M15/apacheds-interceptors-authn-2.0.0-M15.pom
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M15/apacheds-interceptors-authn-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M21
-cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M21/apacheds-interceptors-authn-2.0.0-M21.jar
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M21/apacheds-interceptors-authn-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M21
-cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M21/apacheds-interceptors-authn-2.0.0-M21.pom
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authn/2.0.0-M21/apacheds-interceptors-authn-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M15
-cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M15/apacheds-interceptors-authz-2.0.0-M15.jar
+cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M15/apacheds-interceptors-authz-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M15
-cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M15/apacheds-interceptors-authz-2.0.0-M15.pom
+cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M15/apacheds-interceptors-authz-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M21
-cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M21/apacheds-interceptors-authz-2.0.0-M21.jar
+cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M21/apacheds-interceptors-authz-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M21
-cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M21/apacheds-interceptors-authz-2.0.0-M21.pom
+cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-authz/2.0.0-M21/apacheds-interceptors-authz-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M15
-cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M15/apacheds-interceptors-changelog-2.0.0-M15.jar
+cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M15/apacheds-interceptors-changelog-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M15
-cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M15/apacheds-interceptors-changelog-2.0.0-M15.pom
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M15/apacheds-interceptors-changelog-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M21
-cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M21/apacheds-interceptors-changelog-2.0.0-M21.jar
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M21/apacheds-interceptors-changelog-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M21
-cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M21/apacheds-interceptors-changelog-2.0.0-M21.pom
+cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-changelog/2.0.0-M21/apacheds-interceptors-changelog-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M15
-cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M15/apacheds-interceptors-collective-2.0.0-M15.jar
+cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M15/apacheds-interceptors-collective-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M15
-cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M15/apacheds-interceptors-collective-2.0.0-M15.pom
+cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M15/apacheds-interceptors-collective-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M21
-cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M21/apacheds-interceptors-collective-2.0.0-M21.jar
+cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M21/apacheds-interceptors-collective-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M21
-cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M21/apacheds-interceptors-collective-2.0.0-M21.pom
+cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-collective/2.0.0-M21/apacheds-interceptors-collective-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M15
-cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M15/apacheds-interceptors-event-2.0.0-M15.jar
+cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M15/apacheds-interceptors-event-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M15
-cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M15/apacheds-interceptors-event-2.0.0-M15.pom
+cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M15/apacheds-interceptors-event-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M21
-cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M21/apacheds-interceptors-event-2.0.0-M21.jar
+cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M21/apacheds-interceptors-event-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M21
-cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M21/apacheds-interceptors-event-2.0.0-M21.pom
+cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-event/2.0.0-M21/apacheds-interceptors-event-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M15
-cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M15/apacheds-interceptors-exception-2.0.0-M15.jar
+cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M15/apacheds-interceptors-exception-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M15
-cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M15/apacheds-interceptors-exception-2.0.0-M15.pom
+cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M15/apacheds-interceptors-exception-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M21
-cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M21/apacheds-interceptors-exception-2.0.0-M21.jar
+cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M21/apacheds-interceptors-exception-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M21
-cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M21/apacheds-interceptors-exception-2.0.0-M21.pom
+cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-exception/2.0.0-M21/apacheds-interceptors-exception-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-hash/2.0.0-M21
-cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-hash/2.0.0-M21/apacheds-interceptors-hash-2.0.0-M21.jar
+cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-hash/2.0.0-M21/apacheds-interceptors-hash-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-hash/2.0.0-M21
-cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-hash/2.0.0-M21/apacheds-interceptors-hash-2.0.0-M21.pom
+cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-hash/2.0.0-M21/apacheds-interceptors-hash-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M15
-cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M15/apacheds-interceptors-journal-2.0.0-M15.jar
+cp %{SOURCE71} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M15/apacheds-interceptors-journal-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M15
-cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M15/apacheds-interceptors-journal-2.0.0-M15.pom
+cp %{SOURCE72} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M15/apacheds-interceptors-journal-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M21
-cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M21/apacheds-interceptors-journal-2.0.0-M21.jar
+cp %{SOURCE73} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M21/apacheds-interceptors-journal-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M21
-cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M21/apacheds-interceptors-journal-2.0.0-M21.pom
+cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-journal/2.0.0-M21/apacheds-interceptors-journal-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M15
-cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M15/apacheds-interceptors-normalization-2.0.0-M15.jar
+cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M15/apacheds-interceptors-normalization-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M15
-cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M15/apacheds-interceptors-normalization-2.0.0-M15.pom
+cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M15/apacheds-interceptors-normalization-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M21
-cp %{SOURCE71} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M21/apacheds-interceptors-normalization-2.0.0-M21.jar
+cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M21/apacheds-interceptors-normalization-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M21
-cp %{SOURCE72} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M21/apacheds-interceptors-normalization-2.0.0-M21.pom
+cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-normalization/2.0.0-M21/apacheds-interceptors-normalization-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-number/2.0.0-M21
-cp %{SOURCE73} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-number/2.0.0-M21/apacheds-interceptors-number-2.0.0-M21.jar
+cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-number/2.0.0-M21/apacheds-interceptors-number-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-number/2.0.0-M21
-cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-number/2.0.0-M21/apacheds-interceptors-number-2.0.0-M21.pom
+cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-number/2.0.0-M21/apacheds-interceptors-number-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M15
-cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M15/apacheds-interceptors-operational-2.0.0-M15.jar
+cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M15/apacheds-interceptors-operational-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M15
-cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M15/apacheds-interceptors-operational-2.0.0-M15.pom
+cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M15/apacheds-interceptors-operational-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M21
-cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M21/apacheds-interceptors-operational-2.0.0-M21.jar
+cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M21/apacheds-interceptors-operational-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M21
-cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M21/apacheds-interceptors-operational-2.0.0-M21.pom
+cp %{SOURCE84} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-operational/2.0.0-M21/apacheds-interceptors-operational-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M15
-cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M15/apacheds-interceptors-referral-2.0.0-M15.jar
+cp %{SOURCE85} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M15/apacheds-interceptors-referral-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M15
-cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M15/apacheds-interceptors-referral-2.0.0-M15.pom
+cp %{SOURCE86} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M15/apacheds-interceptors-referral-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M21
-cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M21/apacheds-interceptors-referral-2.0.0-M21.jar
+cp %{SOURCE87} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M21/apacheds-interceptors-referral-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M21
-cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M21/apacheds-interceptors-referral-2.0.0-M21.pom
+cp %{SOURCE88} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-referral/2.0.0-M21/apacheds-interceptors-referral-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M15
-cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M15/apacheds-interceptors-schema-2.0.0-M15.jar
+cp %{SOURCE89} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M15/apacheds-interceptors-schema-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M15
-cp %{SOURCE84} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M15/apacheds-interceptors-schema-2.0.0-M15.pom
+cp %{SOURCE90} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M15/apacheds-interceptors-schema-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M21
-cp %{SOURCE85} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M21/apacheds-interceptors-schema-2.0.0-M21.jar
+cp %{SOURCE91} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M21/apacheds-interceptors-schema-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M21
-cp %{SOURCE86} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M21/apacheds-interceptors-schema-2.0.0-M21.pom
+cp %{SOURCE92} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-schema/2.0.0-M21/apacheds-interceptors-schema-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M15
-cp %{SOURCE87} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M15/apacheds-interceptors-subtree-2.0.0-M15.jar
+cp %{SOURCE93} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M15/apacheds-interceptors-subtree-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M15
-cp %{SOURCE88} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M15/apacheds-interceptors-subtree-2.0.0-M15.pom
+cp %{SOURCE94} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M15/apacheds-interceptors-subtree-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M21
-cp %{SOURCE89} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M21/apacheds-interceptors-subtree-2.0.0-M21.jar
+cp %{SOURCE95} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M21/apacheds-interceptors-subtree-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M21
-cp %{SOURCE90} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M21/apacheds-interceptors-subtree-2.0.0-M21.pom
+cp %{SOURCE96} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-subtree/2.0.0-M21/apacheds-interceptors-subtree-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M15
-cp %{SOURCE91} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M15/apacheds-interceptors-trigger-2.0.0-M15.jar
+cp %{SOURCE97} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M15/apacheds-interceptors-trigger-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M15
-cp %{SOURCE92} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M15/apacheds-interceptors-trigger-2.0.0-M15.pom
+cp %{SOURCE98} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M15/apacheds-interceptors-trigger-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M21
-cp %{SOURCE93} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M21/apacheds-interceptors-trigger-2.0.0-M21.jar
+cp %{SOURCE99} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M21/apacheds-interceptors-trigger-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M21
-cp %{SOURCE94} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M21/apacheds-interceptors-trigger-2.0.0-M21.pom
+cp %{SOURCE100} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M21/apacheds-interceptors-trigger-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors/2.0.0-M15
-cp %{SOURCE95} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors/2.0.0-M15/apacheds-interceptors-2.0.0-M15.pom
+cp %{SOURCE101} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors/2.0.0-M15/apacheds-interceptors-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors/2.0.0-M21
-cp %{SOURCE96} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors/2.0.0-M21/apacheds-interceptors-2.0.0-M21.pom
+cp %{SOURCE102} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors/2.0.0-M21/apacheds-interceptors-2.0.0-M21.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors/2.0.0-M24
+cp %{SOURCE103} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors/2.0.0-M24/apacheds-interceptors-2.0.0-M24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15
-cp %{SOURCE97} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15/apacheds-jdbm-partition-2.0.0-M15.jar
+cp %{SOURCE104} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15/apacheds-jdbm-partition-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15
-cp %{SOURCE98} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15/apacheds-jdbm-partition-2.0.0-M15.pom
+cp %{SOURCE105} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15/apacheds-jdbm-partition-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21
-cp %{SOURCE99} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21/apacheds-jdbm-partition-2.0.0-M21.jar
+cp %{SOURCE106} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21/apacheds-jdbm-partition-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21
-cp %{SOURCE100} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21/apacheds-jdbm-partition-2.0.0-M21.pom
+cp %{SOURCE107} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21/apacheds-jdbm-partition-2.0.0-M21.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M24
+cp %{SOURCE108} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M24/apacheds-jdbm-partition-2.0.0-M24.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M24
+cp %{SOURCE109} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M24/apacheds-jdbm-partition-2.0.0-M24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15
-cp %{SOURCE101} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar
+cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15
-cp %{SOURCE102} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.pom
+cp %{SOURCE111} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M21
-cp %{SOURCE103} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M21/apacheds-kerberos-codec-2.0.0-M21.jar
+cp %{SOURCE112} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M21/apacheds-kerberos-codec-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M21
-cp %{SOURCE104} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M21/apacheds-kerberos-codec-2.0.0-M21.pom
+cp %{SOURCE113} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M21/apacheds-kerberos-codec-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M15
-cp %{SOURCE105} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M15/apacheds-ldif-partition-2.0.0-M15.jar
+cp %{SOURCE114} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M15/apacheds-ldif-partition-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M15
-cp %{SOURCE106} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M15/apacheds-ldif-partition-2.0.0-M15.pom
+cp %{SOURCE115} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M15/apacheds-ldif-partition-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21
-cp %{SOURCE107} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21/apacheds-ldif-partition-2.0.0-M21.jar
+cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21/apacheds-ldif-partition-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21
-cp %{SOURCE108} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21/apacheds-ldif-partition-2.0.0-M21.pom
+cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21/apacheds-ldif-partition-2.0.0-M21.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M24
+cp %{SOURCE118} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M24/apacheds-ldif-partition-2.0.0-M24.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M24
+cp %{SOURCE119} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M24/apacheds-ldif-partition-2.0.0-M24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15
-cp %{SOURCE109} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15/apacheds-mavibot-partition-2.0.0-M15.jar
+cp %{SOURCE120} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15/apacheds-mavibot-partition-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15
-cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15/apacheds-mavibot-partition-2.0.0-M15.pom
+cp %{SOURCE121} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15/apacheds-mavibot-partition-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21
-cp %{SOURCE111} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21/apacheds-mavibot-partition-2.0.0-M21.jar
+cp %{SOURCE122} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21/apacheds-mavibot-partition-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21
-cp %{SOURCE112} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21/apacheds-mavibot-partition-2.0.0-M21.pom
+cp %{SOURCE123} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21/apacheds-mavibot-partition-2.0.0-M21.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M24
+cp %{SOURCE124} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M24/apacheds-mavibot-partition-2.0.0-M24.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M24
+cp %{SOURCE125} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M24/apacheds-mavibot-partition-2.0.0-M24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-parent/2.0.0-M15
-cp %{SOURCE113} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-parent/2.0.0-M15/apacheds-parent-2.0.0-M15.pom
+cp %{SOURCE126} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-parent/2.0.0-M15/apacheds-parent-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-parent/2.0.0-M21
-cp %{SOURCE114} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-parent/2.0.0-M21/apacheds-parent-2.0.0-M21.pom
+cp %{SOURCE127} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-parent/2.0.0-M21/apacheds-parent-2.0.0-M21.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-parent/2.0.0-M24
+cp %{SOURCE128} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-parent/2.0.0-M24/apacheds-parent-2.0.0-M24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15
-cp %{SOURCE115} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15/apacheds-protocol-kerberos-2.0.0-M15.jar
+cp %{SOURCE129} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15/apacheds-protocol-kerberos-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15
-cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15/apacheds-protocol-kerberos-2.0.0-M15.pom
+cp %{SOURCE130} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15/apacheds-protocol-kerberos-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21
-cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21/apacheds-protocol-kerberos-2.0.0-M21.jar
+cp %{SOURCE131} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21/apacheds-protocol-kerberos-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21
-cp %{SOURCE118} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21/apacheds-protocol-kerberos-2.0.0-M21.pom
+cp %{SOURCE132} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21/apacheds-protocol-kerberos-2.0.0-M21.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M24
+cp %{SOURCE133} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M24/apacheds-protocol-kerberos-2.0.0-M24.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M24
+cp %{SOURCE134} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M24/apacheds-protocol-kerberos-2.0.0-M24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15
-cp %{SOURCE119} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15/apacheds-protocol-ldap-2.0.0-M15.jar
+cp %{SOURCE135} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15/apacheds-protocol-ldap-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15
-cp %{SOURCE120} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15/apacheds-protocol-ldap-2.0.0-M15.pom
+cp %{SOURCE136} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15/apacheds-protocol-ldap-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21
-cp %{SOURCE121} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21/apacheds-protocol-ldap-2.0.0-M21.jar
+cp %{SOURCE137} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21/apacheds-protocol-ldap-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21
-cp %{SOURCE122} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21/apacheds-protocol-ldap-2.0.0-M21.pom
+cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21/apacheds-protocol-ldap-2.0.0-M21.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M24
+cp %{SOURCE139} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M24/apacheds-protocol-ldap-2.0.0-M24.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M24
+cp %{SOURCE140} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M24/apacheds-protocol-ldap-2.0.0-M24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15
-cp %{SOURCE123} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15/apacheds-protocol-shared-2.0.0-M15.jar
+cp %{SOURCE141} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15/apacheds-protocol-shared-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15
-cp %{SOURCE124} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15/apacheds-protocol-shared-2.0.0-M15.pom
+cp %{SOURCE142} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15/apacheds-protocol-shared-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21
-cp %{SOURCE125} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21/apacheds-protocol-shared-2.0.0-M21.jar
+cp %{SOURCE143} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21/apacheds-protocol-shared-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21
-cp %{SOURCE126} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21/apacheds-protocol-shared-2.0.0-M21.pom
+cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21/apacheds-protocol-shared-2.0.0-M21.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M24
+cp %{SOURCE145} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M24/apacheds-protocol-shared-2.0.0-M24.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M24
+cp %{SOURCE146} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M24/apacheds-protocol-shared-2.0.0-M24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21
-cp %{SOURCE127} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21/apacheds-server-annotations-2.0.0-M21.jar
+cp %{SOURCE147} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21/apacheds-server-annotations-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21
-cp %{SOURCE128} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21/apacheds-server-annotations-2.0.0-M21.pom
+cp %{SOURCE148} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21/apacheds-server-annotations-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-config/2.0.0-M21
-cp %{SOURCE129} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-config/2.0.0-M21/apacheds-server-config-2.0.0-M21.jar
+cp %{SOURCE149} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-config/2.0.0-M21/apacheds-server-config-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-config/2.0.0-M21
-cp %{SOURCE130} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-config/2.0.0-M21/apacheds-server-config-2.0.0-M21.pom
+cp %{SOURCE150} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-config/2.0.0-M21/apacheds-server-config-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-integ/2.0.0-M21
-cp %{SOURCE131} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-integ/2.0.0-M21/apacheds-server-integ-2.0.0-M21.jar
+cp %{SOURCE151} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-integ/2.0.0-M21/apacheds-server-integ-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-integ/2.0.0-M21
-cp %{SOURCE132} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-integ/2.0.0-M21/apacheds-server-integ-2.0.0-M21.pom
+cp %{SOURCE152} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-integ/2.0.0-M21/apacheds-server-integ-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-test-framework/2.0.0-M21
-cp %{SOURCE133} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-test-framework/2.0.0-M21/apacheds-test-framework-2.0.0-M21.jar
+cp %{SOURCE153} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-test-framework/2.0.0-M21/apacheds-test-framework-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-test-framework/2.0.0-M21
-cp %{SOURCE134} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-test-framework/2.0.0-M21/apacheds-test-framework-2.0.0-M21.pom
+cp %{SOURCE154} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-test-framework/2.0.0-M21/apacheds-test-framework-2.0.0-M21.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M15
-cp %{SOURCE135} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M15/apacheds-xdbm-partition-2.0.0-M15.jar
+cp %{SOURCE155} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M15/apacheds-xdbm-partition-2.0.0-M15.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M15
-cp %{SOURCE136} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M15/apacheds-xdbm-partition-2.0.0-M15.pom
+cp %{SOURCE156} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M15/apacheds-xdbm-partition-2.0.0-M15.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M21
-cp %{SOURCE137} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M21/apacheds-xdbm-partition-2.0.0-M21.jar
+cp %{SOURCE157} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M21/apacheds-xdbm-partition-2.0.0-M21.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M21
-cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M21/apacheds-xdbm-partition-2.0.0-M21.pom
+cp %{SOURCE158} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-xdbm-partition/2.0.0-M21/apacheds-xdbm-partition-2.0.0-M21.pom
 
 
 %files
@@ -607,6 +690,8 @@ cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-api/2.0.0-M15/apacheds-core-api-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-api/2.0.0-M21/apacheds-core-api-2.0.0-M21.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-api/2.0.0-M21/apacheds-core-api-2.0.0-M21.pom
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-api/2.0.0-M24/apacheds-core-api-2.0.0-M24.jar
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-api/2.0.0-M24/apacheds-core-api-2.0.0-M24.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M15/apacheds-core-avl-2.0.0-M15.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M15/apacheds-core-avl-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core-avl/2.0.0-M21/apacheds-core-avl-2.0.0-M21.jar
@@ -627,6 +712,8 @@ cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M15/apacheds-core-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M21/apacheds-core-2.0.0-M21.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M21/apacheds-core-2.0.0-M21.pom
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M24/apacheds-core-2.0.0-M24.jar
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-core/2.0.0-M24/apacheds-core-2.0.0-M24.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M21/apacheds-i18n-2.0.0-M21.jar
@@ -635,6 +722,8 @@ cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M15/apacheds-interceptor-kerberos-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21/apacheds-interceptor-kerberos-2.0.0-M21.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M21/apacheds-interceptor-kerberos-2.0.0-M21.pom
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M24/apacheds-interceptor-kerberos-2.0.0-M24.jar
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptor-kerberos/2.0.0-M24/apacheds-interceptor-kerberos-2.0.0-M24.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15/apacheds-interceptors-admin-2.0.0-M15.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M15/apacheds-interceptors-admin-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-admin/2.0.0-M21/apacheds-interceptors-admin-2.0.0-M21.jar
@@ -697,10 +786,13 @@ cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors-trigger/2.0.0-M21/apacheds-interceptors-trigger-2.0.0-M21.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors/2.0.0-M15/apacheds-interceptors-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors/2.0.0-M21/apacheds-interceptors-2.0.0-M21.pom
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-interceptors/2.0.0-M24/apacheds-interceptors-2.0.0-M24.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15/apacheds-jdbm-partition-2.0.0-M15.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M15/apacheds-jdbm-partition-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21/apacheds-jdbm-partition-2.0.0-M21.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M21/apacheds-jdbm-partition-2.0.0-M21.pom
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M24/apacheds-jdbm-partition-2.0.0-M24.jar
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-jdbm-partition/2.0.0-M24/apacheds-jdbm-partition-2.0.0-M24.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M21/apacheds-kerberos-codec-2.0.0-M21.jar
@@ -709,24 +801,35 @@ cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M15/apacheds-ldif-partition-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21/apacheds-ldif-partition-2.0.0-M21.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M21/apacheds-ldif-partition-2.0.0-M21.pom
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M24/apacheds-ldif-partition-2.0.0-M24.jar
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-ldif-partition/2.0.0-M24/apacheds-ldif-partition-2.0.0-M24.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15/apacheds-mavibot-partition-2.0.0-M15.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M15/apacheds-mavibot-partition-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21/apacheds-mavibot-partition-2.0.0-M21.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M21/apacheds-mavibot-partition-2.0.0-M21.pom
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M24/apacheds-mavibot-partition-2.0.0-M24.jar
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-mavibot-partition/2.0.0-M24/apacheds-mavibot-partition-2.0.0-M24.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-parent/2.0.0-M15/apacheds-parent-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-parent/2.0.0-M21/apacheds-parent-2.0.0-M21.pom
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-parent/2.0.0-M24/apacheds-parent-2.0.0-M24.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15/apacheds-protocol-kerberos-2.0.0-M15.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M15/apacheds-protocol-kerberos-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21/apacheds-protocol-kerberos-2.0.0-M21.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M21/apacheds-protocol-kerberos-2.0.0-M21.pom
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M24/apacheds-protocol-kerberos-2.0.0-M24.jar
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-kerberos/2.0.0-M24/apacheds-protocol-kerberos-2.0.0-M24.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15/apacheds-protocol-ldap-2.0.0-M15.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M15/apacheds-protocol-ldap-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21/apacheds-protocol-ldap-2.0.0-M21.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M21/apacheds-protocol-ldap-2.0.0-M21.pom
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M24/apacheds-protocol-ldap-2.0.0-M24.jar
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-ldap/2.0.0-M24/apacheds-protocol-ldap-2.0.0-M24.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15/apacheds-protocol-shared-2.0.0-M15.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M15/apacheds-protocol-shared-2.0.0-M15.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21/apacheds-protocol-shared-2.0.0-M21.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M21/apacheds-protocol-shared-2.0.0-M21.pom
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M24/apacheds-protocol-shared-2.0.0-M24.jar
+/usr/share/java/.m2/repository/org/apache/directory/server/apacheds-protocol-shared/2.0.0-M24/apacheds-protocol-shared-2.0.0-M24.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21/apacheds-server-annotations-2.0.0-M21.jar
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-annotations/2.0.0-M21/apacheds-server-annotations-2.0.0-M21.pom
 /usr/share/java/.m2/repository/org/apache/directory/server/apacheds-server-config/2.0.0-M21/apacheds-server-config-2.0.0-M21.jar
@@ -742,6 +845,7 @@ cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/apache/directory/
 
 %files license
 %defattr(0644,root,root,0755)
+/usr/share/package-licenses/mvn-directory-server/LICENSE
 /usr/share/package-licenses/mvn-directory-server/NOTICE
 /usr/share/package-licenses/mvn-directory-server/installers-maven-plugin_src_main_resources_org_apache_directory_server_installers_LICENSE
 /usr/share/package-licenses/mvn-directory-server/installers-maven-plugin_src_main_resources_org_apache_directory_server_installers_NOTICE
